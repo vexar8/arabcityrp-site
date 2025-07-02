@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arab City RP - الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: rgba(0,0,0,0.7);
+            color: #e0c864;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.4rem;
+        }
+        .hero a {
+            margin-top: 30px;
+            display: inline-block;
+            background-color: #e0c864;
+            color: #1c1606;
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .hero a:hover {
+            background-color: #f5e4a9;
+        }
+        .section-boxes {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 50px 20px;
+        }
+        .box {
+            background-color: rgba(224, 200, 100, 0.1);
+            border: 2px solid #e0c864;
+            padding: 30px;
+            border-radius: 12px;
+            width: 300px;
+            margin: 15px;
+            text-align: center;
+            color: #fff;
+            box-shadow: 0 0 10px #e0c864;
+        }
+        .box h2 {
+            margin-bottom: 15px;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="شعار Arab City RP" class="logo" />
+        <nav>
+            <ul>
+                <li><a href="index.html" class="btn">صفحة التقديم</a></li>
+                <li><a href="https://discord.gg/arabcity" target="_blank" class="btn">الدخول للديسكورد الرئيسي</a></li>
+                <li><a href="https://discord.gg/tickets" target="_blank" class="btn">الدخول لتكتات الديسكورد</a></li>
+                <li><a href="https://discord.gg/gangs" target="_blank" class="btn">الدخول لديسكورد العصابات</a></li>
+                <li><a href="https://discord.gg/factions" target="_blank" class="btn">الدخول لديسكورد الفاكشنات</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>مرحباً بك في سيرفر Arab City RP</h1>
+        <p>عالم احترافي من الـ RP العربي! انضم إلينا وابدأ رحلتك الآن.</p>
+        <a href="index.html">ابدأ التقديم الآن</a>
+    </section>
+
+    <section class="section-boxes">
+        <div class="box">
+            <h2>IP السيرفر</h2>
+            <p>mtasa://123.456.789.123:22003</p>
+        </div>
+        <div class="box">
+            <h2>التقديمات</h2>
+            <p>جميع التقديمات متاحة من خلال الرابط أعلاه. تابعنا للمزيد!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Arab City RP</p>
+    </footer>
+</body>
+</html>
