@@ -1,44 +1,77 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    background-color: #0e0e0e;
-    color: #f00;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+    font-family: 'Cairo', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f0f0f0;
     direction: rtl;
 }
-.container {
-    max-width: 700px;
-    margin: auto;
-    padding: 20px;
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .logo {
-    width: 180px;
-    margin: 20px 0;
+    height: 60px;
 }
-.buttons a {
-    display: block;
-    margin: 10px auto;
-    background: #f00;
-    color: white;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+nav ul li a {
+    color: #e0c864;
     text-decoration: none;
-    padding: 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #fff;
+}
+main {
+    margin: 40px auto;
+    max-width: 900px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #e0c864;
+}
+.apply h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.2rem;
+    color: #e0c864;
+}
+.apply-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.apply-item {
+    background-color: rgba(224, 200, 100, 0.3);
+    padding: 20px;
     border-radius: 10px;
-    width: 70%;
-    transition: 0.3s;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    box-shadow: 0 0 10px #e0c864;
 }
-.buttons a:hover {
-    background: #b30000;
+.apply-item h3 {
+    margin-bottom: 12px;
 }
-input, textarea {
-    width: 90%;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 8px;
-    border: none;
-}
-form {
-    background: #1a1a1a;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 30px;
+footer {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 1rem;
+    color: #aaa;
 }
